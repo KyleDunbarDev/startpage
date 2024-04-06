@@ -39,7 +39,7 @@ nav {
     "subheader subheader"
     "list1 list2"
     "list3 list4";
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 190px 190px;
   margin-top: 5vh;
   margin-bottom: 5vh;
 }
