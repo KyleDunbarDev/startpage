@@ -2,82 +2,84 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
 }
 
 body {
-  font-family: "VT323", monospace;
-  background-color: black;
-  display: flex;
+    font-family: "VT323", monospace;
+    background-color: black;
+    display: flex;
 }
 
 html {
-  scroll-behavior: smooth;
-  width: 1260px;
+    scroll-behavior: smooth;
+    width: 1260px;
 }
 
 .image-container {
-  width: auto;
-  justify-content: center;
-  flex: 1;
+    width: auto;
+    justify-content: center;
+    flex: 1;
 }
 img {
-  height: 90vh;
-  width: auto;
-  margin-left: 150px;
-  margin-top: 30px;
+    height: 90vh;
+    width: auto;
+    margin-left: 150px;
+    margin-top: 30px;
 }
 
 nav {
-  flex: 1;
-  display: grid;
-  /* gap: 50px; */
-  grid-template-areas:
-    "header header"
-    "subheader subheader"
-    "list1 list2"
-    "list3 list4";
-  grid-template-columns: 190px 190px;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+    flex: 1;
+    display: grid;
+    /* gap: 50px; */
+    grid-template-areas:
+        "header header"
+        "subheader subheader"
+        "list1 list2"
+        "list3 list4";
+    grid-template-columns: 190px 190px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 h1 {
-  color: #e2c49c;
-  font-size: 2.5rem;
-  padding-top: 2rem;
+    color: #e2c49c;
+    font-size: 2.5rem;
+    padding-top: 2rem;
 
-  grid-area: header;
+    grid-area: header;
 }
 h2 {
-  color: #c45454;
+    /*color: #c45454;*/
+    color: rgb(18, 53, 36);
 
-  grid-area: subheader;
+    grid-area: subheader;
 }
 ul {
-  width: 190px;
-  gap: 0px;
-  margin-bottom: 10px;
+    width: 190px;
+    gap: 0px;
+    margin-bottom: 10px;
 }
 li {
-  color: #e2c49c;
-  text-decoration: none;
-  list-style: none;
+    color: #e2c49c;
+    text-decoration: none;
+    list-style: none;
 }
 li:first-child {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 a {
-  list-style: none;
-  color: #c45454;
-  text-decoration: none;
-  justify-self: left;
+    list-style: none;
+    /*color: #c45454;*/
+    color: rgb(18, 53, 36);
+    text-decoration: none;
+    justify-self: left;
 }
 
 a:hover {
-  text-decoration: underline;
-  text-underline-offset: 4px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
