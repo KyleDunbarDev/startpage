@@ -11,6 +11,8 @@ body {
     font-family: "VT323", monospace;
     background-color: black;
     display: flex;
+    width: 100vw;
+    height: 100vh;
 }
 
 html {
