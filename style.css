@@ -1,6 +1,16 @@
 /* GENERAL */
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
+:root {
+    /* Makima */
+    /* --heading-color: #e2c49c; */
+    /* --body-color: #c45454; */
+
+    /* Leafy Bench */
+    --heading-color: #445f32;
+    --body-color: #926121;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -47,14 +57,14 @@ nav {
 }
 
 h1 {
-    color: #e2c49c;
+    color: var(--heading-color);
     font-size: 2.5rem;
     padding-top: 2rem;
 
     grid-area: header;
 }
 h2 {
-    color: #c45454;
+    color: var(--body-color);
 
     grid-area: subheader;
 }
@@ -64,7 +74,7 @@ ul {
     margin-bottom: 10px;
 }
 li {
-    color: #e2c49c;
+    color: var(--heading-color);
     text-decoration: none;
     list-style: none;
 }
@@ -74,7 +84,7 @@ li:first-child {
 
 a {
     list-style: none;
-    color: #c45454;
+    color: var(--body-color);
     text-decoration: none;
     justify-self: left;
 }
